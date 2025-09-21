@@ -31,7 +31,7 @@ Key aspects include:
 - Extends homotopic deviation theory to **regular matrix pencils**.  
 - Introduces refined notions of **frontier points, critical points, and limit points**.  
 - Connects the deviation parameter $t$ with eigenvalues $\lambda(t)$ in the extended complex plane.  
-- Provides insights for **parametric polynomial eigenvalue problems** and their linearizations.  
+- Characterization of the Weierstrass structure changes of deviated matrix pencils under two main cases.  
 
 ---
 ## 📊 Figures
