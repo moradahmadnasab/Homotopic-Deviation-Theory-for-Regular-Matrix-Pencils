@@ -6,9 +6,7 @@ This repository accompanies the research paper:
 **"Homotopic Deviation Theory for Regular Matrix Pencils"**  
 by Morad Ahmadnasab and Panayiotis J. Psarrakos, 2024.
 
-We generalize the theory of homotopic deviation of square complex matrices to **regular matrix pencils**.  
-The study focuses on the existence and analyticity of the resolvent of deviated matrix pencils,  
-the limits of both the resolvent and the spectrum as the deviation parameter grows, and structural changes described via the Weierstrass canonical form.
+We generalize the theory of homotopic deviation of square complex matrices to **regular matrix pencils**. The study focuses on the existence and analyticity of the resolvent of deviated matrix pencils, the limits of both the resolvent and the spectrum as the deviation parameter grows, and structural changes described via the Weierstrass canonical form.
 
 ---
 
