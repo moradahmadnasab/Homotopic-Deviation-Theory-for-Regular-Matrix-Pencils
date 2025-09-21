@@ -28,7 +28,7 @@ Consider a matrix pencil
 \[
 P(\lambda) = A - \lambda B,
 \]
-where $A, B \in \mathbb{C}^{n \times n}$.  
+where $A, B \in \mathbb{C}^{n \times n} = \mathbb{C} \cup \{ \infty \}$.  
 The spectrum is defined as
 \[
 \sigma(A,B) = \{\lambda \in \hat{\mathbb{C}} : \det(A - \lambda B) = 0\}.
