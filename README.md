@@ -34,6 +34,25 @@ Key aspects include:
 - Provides insights for **parametric polynomial eigenvalue problems** and their linearizations.  
 
 ---
+## 📊 Figures
+<p align="center">
+  <img src="figures/fig1.png" width="800" alt="Stability Improvements">
+</p>
+
+<p align="center">
+  <img src="figures/fig2.png" width="800" alt="Performance vs. Problem Size">
+</p>
+
+<p align="center">
+  <img src="figures/fig3.png" width="800" alt="Stability Improvements">
+</p>
+
+<p align="center">
+  <img src="figures/fig4.png" width="800" alt="Performance vs. Problem Size">
+</p>
+
+
+---
 
 ## 📄 Reference  
 If you use or refer to this work, please cite:  
