@@ -1,89 +1,53 @@
-# Homotopic Deviation Theory for Regular Matrix Pencils
+# Homotopic Deviation Theory for Regular Matrix Pencils  
 
-## Overview
-This repository accompanies the research paper:
+This repository showcases the methods and results from our paper:  
 
-**"Homotopic Deviation Theory for Regular Matrix Pencils"**  
-by Morad Ahmadnasab and Panayiotis J. Psarrakos, 2024.
-
-We generalize the theory of homotopic deviation of square complex matrices to **regular matrix pencils**. The study focuses on the existence and analyticity of the resolvent of deviated matrix pencils, the limits of both the resolvent and the spectrum as the deviation parameter grows, and structural changes described via the Weierstrass canonical form.
+**"Homotopic deviation theory for regular matrix pencils"**  
+Morad Ahmadnasab, Panayiotis J. Psarrakos, *Linear and Multilinear Algebra*, 72 (2024) 1470-1496.  
+https://doi.org/10.1080/03081087.2023.2182870
 
 ---
 
-## Abstract
-We generalize the theory of homotopic deviation of square (complex) matrices to regular matrix pencils.  
-To this end, we study the existence and the analyticity of the resolvent of the matrix pencils whose matrices are under homotopic deviation with the deviation parameter  
-$t \in \mathbb{C}$.  
-
-Moreover, we investigate and identify the limits of both the resolvent and the spectrum of the deviated matrix pencils, as $|t| \to \infty$.  
-We also study the special cases where $t$ tends to the eigenvalues of the related matrix pairs.  
-We use the notions and the results of the generalized homotopic deviation theory to analyze the Weierstrass structure of the deviated matrix pencils under two different assumptions.  
-
-Numerical examples illustrate and support the theoretical results.
-
----
-
-## Introduction
-Consider a matrix pencil
-\[ P(\lambda) = A - \lambda B \], where $A, B \in \mathbb{C}^{n \times n} = \mathbb{C} \cup \{ \infty \}$.  
-The spectrum is defined as
+## 🔎 Overview  
+We generalize the **homotopic deviation theory** from square complex matrices to **regular matrix pencils**  
 \[
-\sigma(A,B) = \{\lambda \in \hat{\mathbb{C}} : \det(A - \lambda B) = 0\}.
-\]
+P(\lambda) = A - \lambda B.
+\]  
 
-We perturb the pencil by introducing a deviation parameter $t$:
-\[
-P(\lambda,t) = (A+t\Delta A) - \lambda(B + t\Delta B).
-\]
-
-This repository provides numerical experiments and MATLAB codes to illustrate:
-- Existence and analyticity of the resolvent $R(\lambda,t) = P(\lambda,t)^{-1}$,
-- Behavior of $\sigma(P(\lambda,t))$ as $|t| \to \infty$,
-- Relation between deviation parameter $t$ and eigenvalues $\lambda(t)$,
-- Weierstrass structure under two assumptions:
-  1. $\lambda$ varies as parameter,
-  2. $t$ varies as parameter.
+Key aspects include:  
+- Studying the **existence and analyticity of the resolvent** of deviated matrix pencils  
+  \[
+  P(\lambda,t) = (A+t\Delta A) - \lambda (B+t\Delta B),
+  \]
+  with $t \in \hat{\mathbb{C}}$.  
+- Investigating the **limits of the resolvent and the spectrum** as $|t| \to \infty$.  
+- Analyzing **special cases** when $t$ approaches eigenvalues of related matrix pairs.  
+- Exploring how **Weierstrass structure** changes under different assumptions on the role of $\lambda$ and $t$.  
+- Validating results with **numerical examples**.  
 
 ---
 
-## Repository Contents
-- `src/` : MATLAB scripts for assembling deviated pencils and computing resolvents/spectra.
-- `examples/` : Numerical experiments from the paper.
-- `figures/` : Plots reproduced from the paper.
-- `docs/` : Drafts of the paper in LaTeX (if included).
+## ✨ Key Contributions  
+- Extends homotopic deviation theory to **regular matrix pencils**.  
+- Introduces refined notions of **frontier points, critical points, and limit points**.  
+- Connects the deviation parameter $t$ with eigenvalues $\lambda(t)$ in the extended complex plane.  
+- Provides insights for **parametric polynomial eigenvalue problems** and their linearizations.  
 
 ---
 
-## Numerical Experiments
-The numerical experiments validate the theoretical results using MATLAB R2019a (9.6).  
-The machine precision was $u=2^{-53} \approx 1.1 \times 10^{-16}$.  
+## 📄 Reference  
+If you use or refer to this work, please cite:  
 
-Example experiments include:
-- Resolvent norm vs. deviation parameter $t$,
-- Spectrum trajectories as $t$ increases,
-- Verification of analyticity disks,
-- Structural changes in the Weierstrass form.
+M. Ahmadnasab, [Co-author Name], *Homotopic deviation theory for regular matrix pencils*, *[Journal Name]*, [Volume] (2024) [Pages].  
+DOI: [DOI link]  
 
----
-
-## Figures
-The following figures illustrate results from the paper:
-
-- **Figure 1**: Spectrum trajectories of deviated pencil.  
-  ![Spectrum trajectories](figures/spectrum_trajectories.png)
-
-- **Figure 2**: Resolvent norm vs. $|t|$.  
-  ![Resolvent norm](figures/resolvent_norm.png)
-
-- **Figure 3**: Weierstrass structure under varying $t$.  
-  ![Weierstrass structure](figures/weierstrass_structure.png)
-
-*(Please add the actual plots to `figures/` and update the filenames.)*
-
----
-
-## Installation
-Clone this repository:
-```bash
-git clone https://github.com/your-username/homotopic-deviation-pencils.git
-cd homotopic-deviation-pencils
+```bibtex
+@article{Ahmadnasab2024HD,
+  author    = {Morad Ahmadnasab and [Co-author Name]},
+  title     = {Homotopic deviation theory for regular matrix pencils},
+  journal   = {[Journal Name]},
+  volume    = {XX},
+  pages     = {XXX--XXX},
+  year      = {2024},
+  doi       = {XX.XXXX/XXXX}
+}
