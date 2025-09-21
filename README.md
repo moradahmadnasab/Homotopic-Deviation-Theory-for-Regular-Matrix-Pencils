@@ -36,20 +36,20 @@ Key aspects include:
 ---
 ## 📊 Figures
 <p align="center">
-  <img src="figures/fig1.png" width="800" alt="Stability Improvements">
+  <img src="figures/fig1.png" width="800" alt="Scaled plot of $\displaystyle \max_{1\le i \le r_\lambda}\frac{1}{|\mu_i|}$ for $\mu_i\in\sigma(F_\lambda)$.
+">
 </p>
 
 <p align="center">
-  <img src="figures/fig2.png" width="800" alt="Performance vs. Problem Size">
+  <img src="figures/fig2.png" width="800" alt="Two different sets of three rays for $t \mapsto \sigma(P(\lambda, t))$, one of which originates from infinity, i.e., $+\infty \in \sigma(A,B)$.
+">
 </p>
 
 <p align="center">
-  <img src="figures/fig3.png" width="800" alt="Stability Improvements">
+  <img src="figures/fig3.png" width="800" alt="Matrix Pencil Weierstrass Structure Change under deviation">
 </p>
 
-<p align="center">
-  <img src="figures/fig4.png" width="800" alt="Performance vs. Problem Size">
-</p>
+
 
 
 ---
