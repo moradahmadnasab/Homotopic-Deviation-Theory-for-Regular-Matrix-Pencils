@@ -38,16 +38,6 @@ Key aspects include:
 ## 📄 Reference  
 If you use or refer to this work, please cite:  
 
-M. Ahmadnasab, [Co-author Name], *Homotopic deviation theory for regular matrix pencils*, *[Journal Name]*, [Volume] (2024) [Pages].  
-DOI: [DOI link]  
+M. Ahmadnasab, P. J. Psarrakos, *Linear and Multilinear Algebra*, 72 (2024) 1470-1496.  
+https://doi.org/10.1080/03081087.2023.2182870  
 
-```bibtex
-@article{Ahmadnasab2024HD,
-  author    = {Morad Ahmadnasab and [Co-author Name]},
-  title     = {Homotopic deviation theory for regular matrix pencils},
-  journal   = {[Journal Name]},
-  volume    = {XX},
-  pages     = {XXX--XXX},
-  year      = {2024},
-  doi       = {XX.XXXX/XXXX}
-}
