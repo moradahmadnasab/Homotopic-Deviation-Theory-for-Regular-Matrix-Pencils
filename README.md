@@ -25,9 +25,9 @@ Numerical examples illustrate and support the theoretical results.
 
 ## Introduction
 Consider a matrix pencil
-\[
+$$
 P(\lambda) = A - \lambda B,
-\]
+$$
 where $A, B \in \mathbb{C}^{n \times n} = \mathbb{C} \cup \{ \infty \}$.  
 The spectrum is defined as
 \[
